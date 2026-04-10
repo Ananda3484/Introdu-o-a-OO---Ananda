@@ -20,7 +20,7 @@ int main() {
 
     cout << "------------------------------" << endl << endl;
 
-    // Retângulo
+    // RetÃ¢ngulo
     cout << "Digite a base do retangulo (entre 1 e 50): ";
     cin >> base;
 
@@ -42,7 +42,7 @@ int main() {
 
     cout << "------------------------------" << endl << endl;
 
-    // Círculo
+    // CÃ­rculo
     cout << "Digite o raio do circulo (entre 1 e 50): ";
     cin >> raio;
 
