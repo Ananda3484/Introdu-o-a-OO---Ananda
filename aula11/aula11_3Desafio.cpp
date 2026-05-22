@@ -20,7 +20,7 @@ public:
         this->cargo = cargo;
     }
 
-    // Método para fazer login
+    // MÃ©todo para fazer login
     void fazerLogin(string emailDigitado, string senhaDigitada) {
         if (email == emailDigitado && senha == senhaDigitada) {
             cout << "Login realizado com sucesso!" << endl;
@@ -29,7 +29,7 @@ public:
         }
     }
 
-    // Método para editar perfil
+    // MÃ©todo para editar perfil
     void editarPerfil(string novoNome, string novoCargo) {
         nome = novoNome;
         cargo = novoCargo;
@@ -37,17 +37,17 @@ public:
         cout << "Perfil atualizado com sucesso!" << endl;
     }
 
-    // Método para criar quadro
+    // MÃ©todo para criar quadro
     void criarQuadro(string nomeQuadro) {
         cout << "Quadro '" << nomeQuadro << "' criado com sucesso!" << endl;
     }
 
-    // Método para participar de quadro
+    // MÃ©todo para participar de quadro
     void participarQuadro(string nomeQuadro) {
         cout << nome << " entrou no quadro '" << nomeQuadro << "'" << endl;
     }
 
-    // Método para exibir informações
+    // MÃ©todo para exibir informaÃ§Ãµes
     void exibirInformacoes() {
         cout << "\n=== DADOS DO USUARIO ===" << endl;
         cout << "Nome: " << nome << endl;
